@@ -1,0 +1,21 @@
+{% extends "lab/index.html.j2" %}
+
+{% block header %}
+{{ super() }}
+
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+
+<style>
+    /* Custom CSS */
+    .jp-Notebook {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .plotly-graph-div {
+        margin: 20px 0;
+        border: 1px solid #eee;
+        border-radius: 5px;
+    }
+</style>
+{% endblock header %}
