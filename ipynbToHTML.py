@@ -24,6 +24,6 @@ def convert_notebook_to_html(notebook_path, output_html_path):
 
 if __name__ == "__main__":
     convert_notebook_to_html(
-        "simple_graph.ipynb",
+        "interactive_notebook.ipynb",
         "failed_attempts/final_output.html"
     )
